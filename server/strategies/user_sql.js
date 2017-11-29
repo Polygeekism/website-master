@@ -8,7 +8,7 @@ var pg = require('pg');
 
 var config = {
   user: 'krisszafranski', //env var: PGUSER
-  database: 'passport-users', //env var: PGDATABASE
+  database: 'users', //env var: PGDATABASE
   password: '', //env var: PGPASSWORD
   port: 5432, //env var: PGPORT
   max: 10, // max number of clients in the pool

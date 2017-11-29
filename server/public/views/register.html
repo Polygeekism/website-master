@@ -2,23 +2,10 @@
   <h1 class="lead">Register User</h1>
   <h1 class="lead alert alert-danger" role="alert" ng-if="message != ''">{{message}}</h2>
   <form ng-submit="registerUser()">
-      <div>
-          <label for="firstname">First name:</label>
-          <input type="text" ng-model="user.firstname" />
-      </div>
-      <div>
-          <label for="lastname">Last name:</label>
-          <input type="text" ng-model="user.lastname" />
-      </div>
     <div>
         <label for="username">Username:</label>
         <input type="text" ng-model="user.username" />
     </div>
-    <div>
-        <label for="email">Email:</label>
-        <input type="text" ng-model="user.email" />
-    </div>
-
     <div>
         <label for="password">Password:</label>
         <input type="password" ng-model="user.password" />
